@@ -36,7 +36,7 @@ The goal of this project is to:
 ## Setup Instructions
 1. **Create Azure Event Hub**:
    - Set up two Event Hubs: `Bookings` and `Payments`.
-   - Add connection strings in `event_hub/event_hub_config.json`.
+   - Add connection strings in `event_hub name: *** and event_hub_connection_primary_string : **** in python code by yourself where you create a Shared access policy to each event hub (topic) and their you can see connection string `.
 
 2. **Publish Mock Data**:
    - Run `mock_booings.py` to send events to Event Hubs.
