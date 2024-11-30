@@ -10,7 +10,7 @@ This project demonstrates a real-time streaming pipeline for processing booking 
 - SQL
 
 ## Architecture
-![Pipeline Flow](./assets/flow_diagram.png)
+
 
 ## Setup Instructions
 1. **Create Azure Event Hub**:
@@ -29,8 +29,3 @@ This project demonstrates a real-time streaming pipeline for processing booking 
 
 5. **Test and Analyze**:
    - Verify the data using `sample_queries.sql`.
-
-## Sample Output
-- Example query results in Synapse:
-```sql
-SELECT * FROM BookingPayments WHERE movie = 'Inception';
